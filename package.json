@@ -1,0 +1,28 @@
+{
+  "name": "oae-kaltura",
+  "description": "Kaltura Backend for Sakai OAE",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stuartf/oae-kaltura",
+  "author": {
+    "name": "D. Stuart Freeman",
+    "email": "stuart.freeman@et.gatech.edu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stuartf/oae-kaltura.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stuartf/oae-kaltura/issues"
+  },
+  "licenses": [
+    {
+      "type": "AGPL",
+      "url": "http://www.gnu.org/licenses/agpl-3.0.html"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.8"
+  }
+}
