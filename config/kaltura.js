@@ -21,6 +21,7 @@ module.exports = {
         'name': 'Kaltura storage backend settings',
         'description': 'Define the Kaltura backend storage settings',
         'elements': {
+            'enabled': new Fields.Bool('Enabled', 'Process audio and video with Kaltura', false, {'tenantOverride': true, 'suppress': true, 'globalAdminOnly': false}),
             'endpoint': new Fields.Text('Kaltura Endpoint URL', 'The Kaltura endpoint to integrate with.', 'http://www.kaltura.com', {'tenantOverride': true, 'suppress': true, 'globalAdminOnly': false}),
             'partner-id': new Fields.Text('Kaltura Partner ID', 'The Kaltura partner ID.', '', {'tenantOverride': true, 'suppress': true, 'globalAdminOnly': false}),
             'secret': new Fields.Text('Kaltura Secret', 'The Kaltura shared secret.', '', {'tenantOverride': true, 'suppress': true, 'globalAdminOnly': false}),
